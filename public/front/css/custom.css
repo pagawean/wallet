@@ -1,0 +1,525 @@
+body {
+  padding-top: 0;
+  background: #fff;
+}
+
+#body {
+  background: #ccc;
+}
+
+.wrapper {
+  background: #fff;
+  padding: 0;
+}
+
+.video-top {
+  margin-top: 5%;
+  height: 23em;
+}
+
+.detail-side {
+  margin-top: -2%;
+}
+
+
+.view {
+  margin-right: 10%;
+}
+
+.like {
+  margin-top: -0.1%;
+}
+
+.like ul li {
+  margin-right: 5%;
+}
+
+.fa-thumbs-o-up:hover {
+   color: blue;
+}
+
+.title {
+  margin-left: -4.5%;
+}
+
+.description {
+  
+  border-width: 10%;
+  padding-top: 0%;
+}
+
+.content {
+  margin-top: -3%;
+}
+.publish {
+  margin-top: -5%;
+}
+
+hr {
+  border-bottom: 1px solid #ccc;
+  width: 104%;
+  margin-top: -5%;
+
+}
+
+
+.video-js-responsive-container.vjs-hd {
+  padding-top: 56.25%;
+}
+.video-js-responsive-container.vjs-sd {
+  padding-top: 75%;
+}
+.video-js-responsive-container {
+  width: 100%;
+  position: relative;
+}
+.video-js-responsive-container .video-js {
+    /*height: 102.5% !important; */
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.general,.Latest-tv-series,.faq{
+    padding: 0em 0;
+}
+
+h4.latest-text {
+  margin-left: 1.2em;
+}
+
+.slider{
+  padding-right: -20px;
+}
+
+.password {
+  float: right; 
+  margin-top: 3%;
+}
+
+.register {
+      margin-top: 1%;
+}
+
+/*.form-login {
+  padding-bottom: 12%;
+}*/
+.panel-transparent {
+        background: none;
+        margin-top: 30%;
+        border: none;
+        color: #fff;
+        box-shadow: none;
+
+    }
+
+    .panel-transparent .panel-heading{
+        background: none;
+        border: none;
+    }
+
+    .panel-transparent .panel-body{
+        background: none;
+        border: none;
+
+    }
+.faq {
+  margin-top: 3%;
+}
+
+.banner {
+  height: 50%;
+  width: 100%;
+}
+
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: https://j.mp/metronictheme
+Licensed under MIT
+***/
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 5px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 0px;
+  background: #ac362e;
+  color: 
+}
+
+.profile-usertitle-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+
+
+hr.style1{
+  border-top: 1px solid #8c8b8b;
+}
+
+
+
+.dashboard-stat, .portlet {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.portlet {
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    border-radius: 4px;
+}
+.portlet.bordered {
+    border-left: 2px solid #e6e9ec!important;
+}
+.portlet.light {
+    padding: 12px 20px 15px;
+    background-color: #fff;
+}
+.portlet.light.bordered {
+    border: 1px solid #e7ecf1!important;
+}
+.list-separated {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.profile-stat {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f4f7;
+}
+.profile-stat-title {
+    color: #7f90a4;
+    font-size: 25px;
+    text-align: center;
+}
+.uppercase {
+    text-transform: uppercase!important;
+}
+
+.profile-stat-text {
+    color: #5b9bd1;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.profile-desc-title {
+    color: #7f90a4;
+    font-size: 17px;
+    font-weight: 600;
+}
+.profile-desc-text {
+    color: #7e8c9e;
+    font-size: 14px;
+}
+.margin-top-20 {
+    margin-top: 20px!important;
+}
+[class*=" fa-"]:not(.fa-stack), [class*=" glyphicon-"], [class*=" icon-"], [class^=fa-]:not(.fa-stack), [class^=glyphicon-], [class^=icon-] {
+    display: inline-block;
+    line-height: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+.profile-desc-link i {
+    width: 22px;
+    font-size: 19px;
+    color: #abb6c4;
+    margin-right: 5px;
+}
+
+.general_social_icons {
+  margin-top: 2%;
+}
+
+
+input[type=text], input[type=password], textarea{
+  border: #CCC solid 1px;
+  border-radius: 0%;
+}
+
+.movies_nav .navbar-nav .first{
+    border-left: 1px dotted #fff;
+}
+
+.ml0{
+  margin-left: 0 !important;
+}
+.mt20{
+  margin-top: 20px !important;
+}
+.mb20{
+  margin-bottom: 20px !important;
+}
+.mb28{
+  margin-bottom: 28px !important;
+}
+
+.picture-profile{
+    max-height: 200px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.userpic-profile img{
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    height: 9.6em;
+}
+
+.single-agile-shar-buttons > ul > li > span{
+  margin-right: 10px;
+}
+
+.no-padding{
+  padding: 0px;
+}
+
+.image-cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+
+  object-fit: cover;
+  object-position: center right;
+}
+
+.space-profil {
+  margin-left: 0.1em;
+}
+
+.hr {
+  border-bottom: 1px solid #ac362e;
+  margin: 0px 0px 20px 0px;
+  width: 100%;
+}
+
+ .video-wrap {
+        padding: 0 !important;
+        /*margin-bottom: -10%;*/
+       
+      }
+    
+      .big-video {
+        width: 100% auto;
+        padding-top: 0 !important;
+        height: 80%;
+        
+      }
+    
+      video {
+         margin-top: 0 !important;
+    
+      }
+    
+      .video {
+        width: 100%;
+        margin-top: 0 !important;
+    
+      }
+    
+      .nopadding {
+       padding: 0 !important;
+       margin: 0 !important;
+      }
+    
+      .vjs-playlist{
+        height: 500px;
+      }
+
+@media (max-width:732px){
+  .agile_tv_series_grid_right {
+    margin-top: 50%;
+  }
+
+  .pull-right {
+    margin-bottom: 5%;
+    margin-right: 4%;
+  }
+
+ .pace-title{
+  margin-top: 13em;
+ }
+}
+
+@media (max-width:640px){
+  .agile_tv_series_grid_right {
+    margin-top: 60%;
+  }
+
+  .pull-right {
+    margin-bottom: 5%;
+    margin-right: 4%;
+  } 
+
+   .pace-title{
+  margin-top: 13em;
+ }
+
+}
+@media (max-width:480px){
+  .agile_tv_series_grid_right {
+    margin-top: 41%;
+  }
+
+  .pull-right {
+    margin-bottom: 5%;
+    margin-right: 4%;
+  } 
+
+  .space-title {
+    margin-top: 13em;
+  }
+  
+}
+@media (max-width: 320px){
+  .agile_tv_series_grid_right {
+    margin-top: 60%;
+  }
+
+  .pull-right {
+    margin-bottom: 5%;
+    margin-right: 4%;
+  }
+
+  .space-title {
+    margin-top: 13em;
+  }  
+}
+
+.w3-agileits-news-left {
+  margin-top: 1em !important;
+}
+
+.wthree-news-img {
+  height: 30%;
+}
+
+    .img-preview{
+      width: 100%;
+      height: 100px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      max-width: 100%;
+    }
+    .img-trending{
+      width: 100%;
+      height: 9em;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      max-width: 100%;
+    }
+    .img-grid{
+      width: 100%;
+      height: 11em;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      max-width: 100%;
+    }
+
+    .box-margin {
+      margin-left: 0px;
+    }
+
+
+
+
+

@@ -1,0 +1,135 @@
+/*
+  We include some minimal custom CSS to make the playlist UI look good
+  in this context.
+*/
+
+.vjs-playlist {
+    
+    /*overflow: scroll;*/
+    overflow-y: scroll;
+    overflow-x: 
+}
+    .vjs-playlist-item {
+    border: 1px solid #777;
+    height: 150px;
+    background: #eee;
+    padding: 5px !important;
+    margin: 15px 10px !important;
+
+}
+
+.vjs-selected .vjs-playlist-thumbnail {
+    margin-right: 15px !important;
+}
+
+.vjs-playlist-thumbnail {
+    float: left !important;
+    width: 100% !important;
+    margin-right: 15px !important;
+    background: rgba(0, 111, 190, 0.4) !important;
+}
+
+.vjs-playlist-thumbnail img {
+    height: 120%;
+    width: 100%;
+    /*width: auto;*/
+}
+
+.vjs-mouse.vjs-playlist .vjs-selected {
+    background-color: rgb(5, 33, 56);
+    border-radius: 0px;
+}
+
+.vjs-playlist-now-playing {
+    color: #ffffff;
+    left: 15px !important;
+    top: 60px !important;
+    margin: 0px !important;
+    text-transform: lowercase;
+}
+
+.vjs-playlist-title-container .vjs-playlist-name {
+    color: white !important;
+    text-shadow: none;
+    display: none;
+}
+
+.vjs-selected .vjs-playlist-name {
+    color: white;
+    margin-top: 10px !important;
+    font-size: 18px;
+    font-family: arial;
+    padding: 0px !important;
+    max-height: none !important;
+    margin-bottom: 5px;
+}
+
+.vjs-playlist-name {
+    color: #4b4b4b;
+    margin-top: 10px !important;
+    font-size: 18px;
+    font-family: arial;
+    padding: 0px !important;
+    max-height: none !important;
+    margin-bottom: 5px;
+}
+
+.vjs-selected .vjs-playlist-description {
+    color: white;
+    margin-top: 10px !important;
+    font-size: 16px;
+    font-family: arial;
+    padding: 0px !important;
+    max-height: none !important;
+    margin-bottom: 5px;
+}
+
+.vjs-playlist-description {
+    color: #4b4b4b;
+    margin-top: 10px !important;
+    font-size: 16px;
+    font-family: arial;
+    padding: 0px !important;
+    max-height: none !important;
+    margin-bottom: 5px;
+}
+
+.vjs-up-next-text {
+    text-shadow: none;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-transform: lowercase !important;
+    margin-bottom: 10px !important;
+    font-family: arial;
+    font-size: 16px !important;
+}
+
+.vjs-playlist img {
+    height: 100% !important;
+}
+
+.vjs-playlist-duration {
+    font-size: 12px !important;
+    margin: 0px !important;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
